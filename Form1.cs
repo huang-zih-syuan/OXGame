@@ -40,7 +40,7 @@ namespace OXGame
             playerMarker = playerMarker == "X" ? "O" : "X";
             label2.Text = playerMarker;
             //
-            checkWinner();
+            checkWinner();   
         }
 
         private void checkWinner()
